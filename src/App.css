@@ -1,0 +1,99 @@
+body {
+  background-color: #ffffff !important;
+}
+
+.App {
+  background-color: #0d033d;
+}
+
+.App-loader-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-loader-box {
+  position: relative;
+  text-align: center;
+  max-width: 80%;
+  height: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center !important;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-filter-card {
+  width: 18rem;
+  margin-bottom: 10px;
+ 
+
+}
+
+.App-filter-header {
+  color: #157c0c;
+  text-align: center !important;
+}
+
+.App-filter-heading {
+  text-align: center !important;
+  margin-top: 1rem;
+}
+
+.App-filter-heading-launch-year {
+  text-align: center !important;
+  margin-top: 1rem;
+}
+
+.App-filters-hr {
+  margin: 0.4rem;
+}
+
+.App-filter-button-container {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.App-Developers-name {
+  color: #ffffff;
+  text-align: center !important;
+}
+
+.App-filter-button {
+  flex: 0 100%;
+  margin: 12px;
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
